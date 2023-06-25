@@ -1,0 +1,41 @@
+@import "../../styles/variables";
+
+
+.content-box {
+    margin-bottom: 6rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-content {
+    padding: 3rem 0;
+    max-width: 70vw;
+}
+
+.title {
+    @extend .primary-text;
+    font: normal normal bold 80px $primary-font-family;
+    letter-spacing: -1.6px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.subtitle {
+    color: $secondary-color;
+    font: normal normal bold 24px $primary-font-family;
+    letter-spacing: 0.48px;
+    text-transform: uppercase;
+    opacity: 1;
+    margin-top: 0;
+    margin-bottom: 3rem;
+}
+
+.content {
+    @extend .secondary-text;
+    text-align: justify;
+    font: normal normal normal 24px/40px $primary-font-family;
+    letter-spacing: 0.24px;
+    opacity: 1;
+    white-space: pre-wrap;
+}

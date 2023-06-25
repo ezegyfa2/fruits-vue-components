@@ -1,0 +1,11 @@
+.text-box.d-flex
+    .p-0
+        img.img-fluid.flex-grow-1.mb-3.mb-lg-0(
+            v-bind:src='image_url'
+            v-bind:alt='image_alt'
+        )
+    .flex-grow-1.d-flex.align-items-center(v-bind:class='orientationClass + " " + itemOrientationClass')
+        dynamic-component.description-text.light-text(
+            v-bind:component_infos='text_content_section'
+            v-bind:class='textOrientationClass'
+        )

@@ -1,0 +1,24 @@
+@import '../styles/variables';
+
+.footer {
+    background-color: $primary-color;
+    padding: 7rem 0 5rem 0;
+
+}
+
+.img-fluid {
+    padding-bottom: 2rem;
+}
+
+.copyright {
+    width: 100%;
+    color: $light-color;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+    white-space: pre;
+
+    div {
+        width: 360px;
+    }
+}

@@ -1,0 +1,67 @@
+@import "../../styles/variables";
+
+.title {
+    @extend .primary-text;
+    font: normal normal bold 50px $primary-font-family;
+    width: 550px;
+    letter-spacing: -1px;
+    margin-top: 0;
+    margin-bottom: 3rem;
+}
+
+.content {
+    @extend .secondary-text;
+    color: $secondary-color;
+    font: normal normal normal 28px $primary-font-family;
+    letter-spacing: 0.48px;
+    opacity: 1;
+    white-space: pre-wrap;
+    margin-bottom: 6rem;
+}
+
+.order-lg-first {
+    .description-text {
+        padding-right: 2rem;
+    }
+}
+
+.text-lg-right {
+    .title {
+        color: $secondary-color;
+    }
+
+    .content {
+        color: $light-color;
+    }
+}
+
+.link {
+    margin-top: 4rem;
+}
+
+.btn, .btn:disabled {
+    /* Layout Properties */
+    width: 200px;
+    height: 48px;
+    /* UI Properties */
+    background: $secondary-color 0% 0% no-repeat padding-box;
+    border-color: $secondary-color;
+    border-radius: 6px;
+}
+
+.btn:hover {
+    background-color: $secondary-color-lighter;
+    border-color: $secondary-color-lighter;
+}
+
+.btn:disabled {
+    background-color: $secondary-color-darker;
+    border-color: $secondary-color-darker;
+}
+
+.btn-l {
+    padding: .75rem 1.25rem;
+    font-family: $primary-font-family;
+    font-size: 1rem;
+    font-weight: 700;
+}

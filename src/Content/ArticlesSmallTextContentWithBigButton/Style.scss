@@ -1,0 +1,67 @@
+@import "../../styles/variables";
+
+.content-box {
+    padding: 2rem 0;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: $ma-bg-01;
+}
+
+.button-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.line {
+    width: 264px;
+    height: 4px;
+    background-color: $primary-color;
+    border-radius: 10px;
+}
+
+.title {
+    @extend .primary-text;
+    font: normal normal bold 30px/30px $primary-font-family;
+    letter-spacing: -0.6px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.content {
+    @extend .secondary-text;
+    font: normal normal bold 22px/25px $primary-font-family;
+    letter-spacing: 1.1px;
+    opacity: 1;
+    white-space: pre-wrap;
+}
+
+.btn, .btn:disabled {
+    /* Layout Properties */
+    width: 200px;
+    height: 48px;
+    /* UI Properties */
+    background: $secondary-color 0% 0% no-repeat padding-box;
+    border-color: $secondary-color;
+    border-radius: 6px;
+}
+
+.btn:hover {
+    background-color: $secondary-color-lighter;
+    border-color: $secondary-color-lighter;
+}
+
+.btn:disabled {
+    background-color: $secondary-color-darker;
+    border-color: $secondary-color-darker;
+}
+
+.btn-l {
+    padding: .75rem 1.25rem;
+    font-family: $primary-font-family;
+    font-size: 1rem;
+    font-weight: 700;
+}

@@ -1,0 +1,89 @@
+@import '../../styles/variables';
+@import '~bootstrap/scss/bootstrap';
+
+.topbar {
+    height: $topbar-base-height;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 509px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    a {
+        color: $ma-dark;
+        margin: 0px;
+        font: normal normal bold 20px $primary-font-family;
+        letter-spacing: -0.4px;
+        flex: 1;
+    }
+
+    .brand-section {
+        flex: 1;
+    }
+    .text-end {
+        text-align: end;
+    }
+}
+
+.bg-gradient {
+    background-color: $primary-bg-color;
+}
+
+.sidebar-brand {
+    color: $primary-color;
+    margin-bottom: 0rem;
+    &:hover {
+        color: $secondary-color-lighter;
+    }
+}
+
+.btn-language {
+    /* Layout Properties */
+    width: 114px;
+    height: 56px;
+    position: absolute;
+    transform: translate(35vw,0px);
+    /* UI Properties */
+    background: $light-color2 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px $box-shadow2;
+    border-radius: 6px;
+    opacity: 1;
+
+    div {
+        width: 104px;
+        height: 46px;
+        margin: 5px;
+        /* UI Properties */
+        background: $ma-bg-01 0% 0% no-repeat padding-box;
+        border-radius: 3px;
+        opacity: 1;
+        display: flex;
+        justify-content: space-between;
+        font: normal normal bold 16px $primary-font-family;
+        letter-spacing: -0.32px;
+
+        .turn-on, .turn-off {
+            width: 46px;
+            height: 46px;
+            padding: 4px;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .turn-on {
+            color: $light-color;
+            background: $secondary-color 0% 0% no-repeat padding-box;
+        }
+
+        .turn-off {
+            color: $primary-color;
+            background-color: $ma-bg-01;
+        }
+    }
+}

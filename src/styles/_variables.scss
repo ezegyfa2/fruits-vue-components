@@ -1,0 +1,35 @@
+$ma-red: #E61437;
+$ma-hover: #FF163D;
+$ma-clicked: #CC1231;
+$ma-disabled: #BDCACE;
+$ma-dark: #08364D;
+$ma-medium: #525F66;
+$ma-light: #7A8F99;
+$ma-bg-01: #F0F3F5;
+
+$primary-color: $ma-dark !default;
+$primary-color-lighter: $ma-medium !default;
+$primary-color-light: $ma-light !default;
+$secondary-color: $ma-red !default;
+$secondary-color-lighter: $ma-hover !default;
+$secondary-color-darker: $ma-clicked !default;
+$primary-font-family: "Fira Sans",sans-serif !default;
+$secondary-font-family: "Roboto",sans-serif !default;
+
+$primary-bg-color: white;
+$box-shadow: #0D988C1A;
+$box-shadow2: #00000029;
+
+$light-color: white;
+$light-color2: #FCFCFC;
+
+$topbar-base-height: 120px;
+
+.primary-text {
+    font-weight: 700;
+    font-family: $primary-font-family;
+}
+.secondary-text {
+    font-weight: 400;
+    font-family: $secondary-font-family;
+}

@@ -1,0 +1,25 @@
+@import '../../../blue-admin-vue-components/src/AdminPage/Style.scss';
+@import '../styles/variables';
+
+.wrapper {
+    flex-direction: column;
+}
+
+.content-wrapper {
+    background-color: $primary-bg-color;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    width: 100%;
+}
+
+@media (min-width: 1400px) {
+    .container {
+      max-width: 100%;
+    }
+  }

@@ -1,0 +1,38 @@
+@import "../../styles/variables";
+
+.text-box {
+    background-color: $primary-color;
+    margin-bottom: 6rem;
+}
+
+.img-fluid {
+    max-width: 50vw;
+}
+
+.light-text {
+    color: $light-color;
+}
+
+.description-text {
+    padding: 0 2rem;
+}
+
+.text-lg-right {
+    text-align: end;
+}
+
+.button-unique {
+    /* Layout Properties */
+    width: 200px;
+    height: 48px;
+    /* UI Properties */
+    background: $secondary-color 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    opacity: 1;
+}
+
+@media (max-width: 992px) {
+    .description-text {
+        padding: 2rem;
+    }
+}

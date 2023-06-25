@@ -1,0 +1,17 @@
+.content-box
+    .title(v-if='title') {{ title }}
+    .button-section
+        .line
+        .d-block
+            img.img-fluid.flex-grow-1(
+                    v-bind:src='image_url' 
+                    v-bind:alt='image_alt'
+                )
+        a.btn.btn-primary.btn-l(v-if='url' role='button' v-bind:href='url') {{ button_content }}
+        .d-block
+            img.img-fluid.flex-grow-1(
+                    v-bind:src='image2_url' 
+                    v-bind:alt='image2_alt'
+                )
+        .line
+    .content(v-if='content') {{ content }}

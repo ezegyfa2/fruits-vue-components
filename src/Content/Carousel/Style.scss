@@ -1,0 +1,15 @@
+@import "../../styles/variables";
+
+.carousel {
+    width: 936px;
+    height: 538px;
+
+    .carousel-inner {
+        border-radius: 12px;
+    }
+}
+.root {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: $ma-light;
+}
