@@ -13,14 +13,6 @@
             },
             image_alt: {
                 type: String
-            },
-            // TEST
-            test_array: {
-                type: Array,
-                itemType: String
-            },
-            test_section: {
-                type: Object
             }
         }
     }

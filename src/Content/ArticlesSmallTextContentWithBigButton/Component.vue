@@ -10,16 +10,16 @@
             ArticlesSmallTextContent
         ],
         props: {
-            image_url: {
+            left_image_url: {
                 type: String
             },
-            image_alt: {
+            left_image_alt: {
                 type: String
             },
-            image2_url: {
+            right_image_url: {
                 type: String
             },
-            image2_alt: {
+            right_image_alt: {
                 type: String
             }
         }

@@ -1,6 +1,12 @@
 export default {
-    "template_type_name": "fruits_website_products",
+    "template_type_name": "fruits_website_layout",
     "params": {
+        "navigation_bar_section": {
+            "template_type_name": "fruits_website_navigation_bar",
+            "params": {
+                "image_url": "/assets/img/logo_small.svg"
+            }
+        },
         "content_sections": [
             {
                 "type": "fruits-website-carousel"

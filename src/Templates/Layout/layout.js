@@ -1,9 +1,7 @@
 export default {
     "type": "fruits-website-page",
     "data": {
-        "navigation_bar_section": {
-            "template_type_name": "fruits_website_navigationBar"
-        },
+        "navigation_bar_section": "++navigation_bar_section",
         "content_sections": [
             {
                 "type": "blue-admin-centered-content",

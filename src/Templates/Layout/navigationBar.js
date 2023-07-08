@@ -5,7 +5,7 @@ export default {
             "type": "fruits-website-brand-image",
             "data": {
                 "url": "/home",
-                "image_url": "/assets/img/logo_small.svg",
+                "image_url": "++image_url",
                 "image_alt": "Brand Image"
             }
         },
