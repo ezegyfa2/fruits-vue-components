@@ -4,18 +4,35 @@ export default {
         "icon_links_section": {
             "type": "wertically-icon-links",
             "data": {
-                "icon_sections": {
-                    "type": "fruits-website-button-icon-link",
-                    "array_data": "icons",
-                    "data": {
-                        "url": "++icons.url",
-                        "icon_class": "++icons.icon_class"
-                    }
-                }
+                "icon_sections": [
+                    {
+                        "type": "fruits-website-button-icon-link",
+                        "data": {
+                            "url": "",
+                            "icon_class": "fab fa-facebook-f"
+                        }
+                    },
+                    {
+                        "type": "fruits-website-button-icon-link",
+                        "data": {
+                            "url": "",
+                            "icon_class": "fab fa-twitter"
+                        }
+                    },
+                    {
+                        "type": "fruits-website-button-icon-link",
+                        "data": {
+                            "url": "",
+                            "icon_class": "fas fa-envelope"
+                        }
+                    },
+                ]
             }
         },
-        "copyright": "++copyright",
-        "image_url": "++image_url",
-        "image_alt": "++image_alt",
+        "copyright": {
+            "content": "Cím: Siculeni 106, 537295, HR.\nTelefon: 0266 379107\nFax: 0266 316951\nEmail: madefalva@yahoo.com"
+        },
+        "image_url": "/assets/img/logo_small.svg",
+        "image_alt": "...",
     }
 }

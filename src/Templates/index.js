@@ -1,12 +1,7 @@
 export default {
     "template_type_name": "fruits_website_layout",
     "params": {
-        "navigation_bar_section": {
-            "template_type_name": "fruits_website_navigation_bar",
-            "params": {
-                "image_url": "/assets/img/logo_large.svg"
-            }
-        },
+        "navigation_bar_image_url": "/assets/img/logo_large.svg",
         "content_sections": [
             {
                 "type": "fruits-website-description-section",
@@ -50,10 +45,10 @@ export default {
                     "content": "Helyi alapanyagból. Helyi erőforrásokkal. Helyi munkaerővel. Helyieknek.",
                     "button_content": "Garantálja",
                     "url": '/',
-                    "image_url": "/assets/img/gajjak_1.svg",
-                    "image_alt": "...",
-                    "image2_url": "/assets/img/gajjak_2.svg",
-                    "image2_alt": "...",
+                    "left_image_url": "/assets/img/gajjak_1.svg",
+                    "left_image_alt": "...",
+                    "right_image_url": "/assets/img/gajjak_2.svg",
+                    "right_image_alt": "...",
                     "added_classes": {
                         '.content': ['mb-0'],
                     },
@@ -133,10 +128,10 @@ export default {
                     "content": "Helyi alapanyagból. Helyi erőforrásokkal. Helyi munkaerővel. Helyieknek.",
                     "button_content": "Garantálja",
                     "url": '/',
-                    "image_url": "/assets/img/gajjak_1.svg",
-                    "image_alt": "...",
-                    "image2_url": "/assets/img/gajjak_2.svg",
-                    "image2_alt": "...",
+                    "left_image_url": "/assets/img/gajjak_1.svg",
+                    "left_image_alt": "...",
+                    "right_image_url": "/assets/img/gajjak_2.svg",
+                    "right_image_alt": "...",
                     "added_classes": {
                         '.content': ['mb-0'],
                     },
