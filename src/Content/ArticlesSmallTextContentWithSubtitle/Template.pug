@@ -1,8 +1,8 @@
 .content-box.text-center
     .d-block
         img.img-fluid.flex-grow-1(
-            v-bind:src='image_url'
-            v-bind:alt='image_alt'
+            v-bind:src='top_image_url'
+            v-bind:alt='top_image_alt'
         )
     .text-content
         .title(v-if='title') {{ title }}
@@ -12,6 +12,6 @@
             a.btn.btn-primary.btn-l(v-if='url' role='button' v-bind:href='url') {{ button_content }}
     .d-block
         img.img-fluid.flex-grow-1(
-            v-bind:src='image2_url'
-            v-bind:alt='image2_alt'
+            v-bind:src='bottom_image_url'
+            v-bind:alt='bottom_image_alt'
         )

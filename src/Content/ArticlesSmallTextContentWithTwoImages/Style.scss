@@ -1,5 +1,5 @@
 @import "../../styles/variables";
-
+@import '~bootstrap/scss/bootstrap';
 
 .content-box {
     margin-bottom: 6rem;
@@ -18,12 +18,14 @@
     color: $secondary-color;
     font: normal normal bold 50px $primary-font-family;
     letter-spacing: -1px;
+    text-transform: uppercase;
     margin-top: 0;
     margin-bottom: 3rem;
 }
 
 .content {
     @extend .secondary-text;
+    @extend .text-muted;
     text-align: justify;
     font: normal normal normal 28px $primary-font-family;
     letter-spacing: 0.28px;

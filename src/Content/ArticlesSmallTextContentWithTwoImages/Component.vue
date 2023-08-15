@@ -17,27 +17,18 @@
                 type: String,
                 default: 'Contact us'
             },
-            image_url: {
+            top_image_url: {
                 type: String
             },
-            image_alt: {
+            top_image_alt: {
                 type: String
             },
-            image2_url: {
+            bottom_image_url: {
                 type: String
             },
-            image2_alt: {
+            bottom_image_alt: {
                 type: String
             },
-            added_classes: {
-                type: Object,
-                default () {
-                    return{
-                        '.title': 'text-uppercase',
-                        '.content': 'text-muted',
-                    }
-                }
-            }
         }
     }
 </script>

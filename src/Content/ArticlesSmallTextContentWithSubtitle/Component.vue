@@ -14,16 +14,16 @@
                 type: String,
                 default: ''
             },
-            image_url: {
+            top_image_url: {
                 type: String
             },
-            image_alt: {
+            top_image_alt: {
                 type: String
             },
-            image2_url: {
+            bottom_image_url: {
                 type: String
             },
-            image2_alt: {
+            bottom_image_alt: {
                 type: String
             },
         }
