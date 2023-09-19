@@ -9,7 +9,7 @@ export default {
                 "image_alt": "Brand Image"
             }
         },
-        "language": "-++language",
+        "language": "-++current_language",
         "current_url": "-++current_url"
     }
 }
