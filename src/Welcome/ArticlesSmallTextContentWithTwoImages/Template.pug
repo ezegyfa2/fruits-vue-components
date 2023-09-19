@@ -6,7 +6,7 @@
         )
     .text-content
         .title(v-if='title') {{ title }}
-        .content(v-if='content') {{ content }}
+        .content.text-muted(v-if='content') {{ content }}
         .link
             a.btn.btn-primary.btn-l(v-if='url' role='button' v-bind:href='url') {{ button_content }}
     .d-block

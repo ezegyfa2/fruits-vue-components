@@ -24,7 +24,6 @@
 
 .content {
     @extend .secondary-text;
-    @extend .text-muted;
     text-align: justify;
     font: normal normal normal 28px $primary-font-family;
     letter-spacing: 0.28px;

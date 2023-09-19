@@ -3,13 +3,20 @@
 </template>
 
 <script>
-    import ArticlesSmallTextContent from '../../../../dynamic-web-vue-components/src/TextContents/ArticlesSmallTextContent/Component.vue'
+    import SmallTextContent from 'text-contents-vue-components/SmallTextContent/Component.vue'
 
     export default {
         mixins: [
-            ArticlesSmallTextContent
+            SmallTextContent
         ],
         props: {
+            url: {
+                type: String
+            },
+            button_content: {
+                type: String,
+                default: 'Contact us'
+            },
             subtitle: {
                 type: String,
                 default: ''
@@ -25,7 +32,7 @@
             },
             bottom_image_alt: {
                 type: String
-            },
+            }
         }
     }
 </script>

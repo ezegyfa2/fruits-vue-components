@@ -1,9 +1,7 @@
 export default {
     install(Vue) {
-        require('text-contents-vue-components/SmallTextContent').default.install(Vue)
-
         registerVueComponent(
-            'fruits-articles-small-text-content',
+            'fruits-card',
             require('./Component.vue').default,
             Vue
         )
