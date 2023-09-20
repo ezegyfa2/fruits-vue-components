@@ -24,6 +24,7 @@
             about_us_text: {
                 type: String,
             }
+        }
     }
 </script>
 
