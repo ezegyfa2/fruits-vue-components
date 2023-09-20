@@ -1,7 +1,6 @@
 @import 'fruits-vue-components/GlobalComponents/globals.scss';
 
 .topbar {
-    height: $topbar-base-height;
     display: flex;
     justify-content: center;
 }
@@ -22,6 +21,7 @@
 
     .brand-section {
         flex: 1;
+        margin: 1rem 0 0.5rem 0;
     }
     .text-end {
         text-align: end;

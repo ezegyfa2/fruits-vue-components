@@ -30,7 +30,7 @@ export default {
             }
         },
         "copyright": {
-            "content": "Cím: Siculeni 106, 537295, HR.\nTelefon: 0266 379107\nFax: 0266 316951\nEmail: madefalva@yahoo.com"
+            "content": "--layout.footer.copyright.content"
         },
         "image_url": "/assets/img/logo_small.svg",
         "image_alt": "...",
