@@ -5,5 +5,6 @@ export default {
         require('./Card').default.install(Vue)
         require('./Carousel').default.install(Vue)
         require('fruits-vue-components/GlobalComponents/ArticlesSmallTextContentWithBigButton').default.install(Vue)
+        require('fruits-vue-components/Layout').default.install(Vue)
     }
 }

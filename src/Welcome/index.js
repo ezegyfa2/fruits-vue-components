@@ -5,5 +5,6 @@ export default {
         require('./ArticlesSmallTextContentWithTwoImages').default.install(Vue)
         require('./Description').default.install(Vue)
         require('fruits-vue-components/GlobalComponents/ArticlesSmallTextContentWithBigButton').default.install(Vue)
+        require('fruits-vue-components/Layout').default.install(Vue)
     }
 }

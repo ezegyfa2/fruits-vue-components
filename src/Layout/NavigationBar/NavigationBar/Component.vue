@@ -13,12 +13,6 @@
             brand_section: {
                 type: Object
             },
-            about_us_text: {
-                type: String,
-            },
-            products_text: {
-                type: String,
-            },
             language: {
                 type: String,
                 default: 'RO'
@@ -26,8 +20,10 @@
             current_url: {
                 type: String,
                 default: '/'
+            },
+            about_us_text: {
+                type: String,
             }
-        }
     }
 </script>
 
