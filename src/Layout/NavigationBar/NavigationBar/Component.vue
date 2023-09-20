@@ -13,13 +13,16 @@
             brand_section: {
                 type: Object
             },
-            language: {
+            current_language: {
                 type: String,
-                default: 'RO'
+                default: 'EN'
             },
-            current_url: {
-                type: String,
-                default: '/'
+            languages: {
+                type: Array,
+                default: 'EN'
+            },
+            products_link: {
+                type: Object
             }
         }
     }

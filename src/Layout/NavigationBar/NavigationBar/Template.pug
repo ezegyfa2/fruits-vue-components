@@ -1,15 +1,15 @@
 nav.navbar.navbar-expand.navbar-light.bg-gradient.topbar.static-top
     .logo
-        a(href='/home') Rólunk
+        a(href='/') Rólunk
         dynamic-component.brand-section(
             v-bind:component_infos='brand_section'
         )
-        a.text-end(href='/products') Termékeink
-    .btn-language(v-if='language == "HU"')
+        a.text-end(:href='products_link.url') {{ products_link.title }}
+    .btn-language(v-if='current_language == "EN"')
         div
-            a.turn-on(:href='current_url') HU
-            a.turn-off(:href='current_url + "/en"') EN
+            a.turn-on {{ languages[0].name }}
+            a.turn-off(:href='languages[1].url') {{ languages[1].name }}
     .btn-language(v-else)
         div
-            a.turn-off(:href='current_url') HU
-            a.turn-on(:href='current_url + "/en"') EN
+            a.turn-off(:href='languages[0].url') {{ languages[0].name }}
+            a.turn-on {{ languages[1].name }}

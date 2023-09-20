@@ -4,12 +4,16 @@ export default {
         "brand_section": {
             "type": "fruits-brand-image",
             "data": {
-                "url": "/home",
+                "url": "/",
                 "image_url": "++image_url",
                 "image_alt": "Brand Image"
             }
         },
-        "language": "-++current_language",
-        "current_url": "-++current_url"
+        "products_link": {
+            "title": "--layout.navigation_bar.product_link_title",
+            "url": "--routes.products"
+        },
+        "languages": "-++languages",
+        "current_language": "-++current_language"
     }
 }
