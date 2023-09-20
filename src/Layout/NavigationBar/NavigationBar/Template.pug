@@ -1,10 +1,10 @@
 nav.navbar.navbar-expand.navbar-light.bg-gradient.topbar.static-top
     .logo
-        a(href='/home') {{ about_us_text }}
-        dynamic-component.brand-section(
+        a.menu-link(href='/') {{ about_us_text }}
+        dynamic-component(
             v-bind:component_infos='brand_section'
         )
-        a.text-end(href='/products') {{ products_text }}
+        a.menu-link.text-end(href='/products') {{ products_text }}
     .btn-language(v-if='language == "HU"')
         div
             a.turn-on(:href='current_url') HU

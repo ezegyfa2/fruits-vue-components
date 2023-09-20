@@ -10,10 +10,10 @@
             Footer
         ],
         props: {
-            image_url: {
+            url: {
                 type: String
             },
-            image_alt: {
+            logo_class: {
                 type: String
             },
         }

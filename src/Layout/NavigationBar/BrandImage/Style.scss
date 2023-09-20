@@ -1,0 +1,18 @@
+@import 'fruits-vue-components/GlobalComponents/globals.scss';
+
+.brand-section {
+    flex: 1;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.logo-icon {
+    font-size: 6rem;
+    color: $ma-red;
+
+    &:hover {
+        color: $ma-hover;
+    }
+}

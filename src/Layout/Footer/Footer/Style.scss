@@ -6,15 +6,22 @@
 
 }
 
-.img-fluid {
+.logo-icon {
+    font-size: 6rem;
+    color: $ma-red;
     padding-bottom: 2rem;
+
+    &:hover {
+        color: $ma-hover;
+    }
 }
 
 .copyright {
     width: 100%;
     color: $light-color;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     padding-bottom: 2rem;
     white-space: pre;
 

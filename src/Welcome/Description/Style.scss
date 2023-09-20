@@ -18,7 +18,9 @@
 }
 
 .text-lg-right {
-    text-align: end;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
 }
 
 .button-unique {

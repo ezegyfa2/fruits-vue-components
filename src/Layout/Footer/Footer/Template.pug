@@ -1,11 +1,11 @@
 footer.footer
     .text-center
-        img.img-fluid(
-            v-bind:src='image_url'
-            v-bind:alt='image_alt'
-        )
+        a(v-bind:href='url')
+            i.logo-icon(v-bind:class='logo_class')
     .copyright
-        .text-center {{ copyright.content }}
+        .text-center {{ copyright.address }}
+        .text-center {{ copyright.phone }}
+        .text-center {{ copyright.email }}
     .w-100.d-flex.justify-content-center
         dynamic-component.text-center(
             v-bind:component_infos='icon_links_section'

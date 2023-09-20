@@ -4,9 +4,8 @@ export default {
         "brand_section": {
             "type": "fruits-brand-image",
             "data": {
-                "url": "/home",
-                "image_url": "++image_url",
-                "image_alt": "--layout.navbar.image_alt"
+                "url": "/",
+                "logo_class": "fa-solid fa-apple-whole",
             }
         },
         "about_us_text": "--layout.navbar.about_us_text",

@@ -8,12 +8,9 @@
             url: {
                 type: String
             },
-            image_url: {
+            logo_class: {
                 type: String
             },
-            image_alt: {
-                type: String
-            }
         }
     }
 </script>

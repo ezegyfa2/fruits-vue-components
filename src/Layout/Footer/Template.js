@@ -30,9 +30,11 @@ export default {
             }
         },
         "copyright": {
-            "content": "--layout.footer.copyright.content"
+            "address": "--layout.footer.address",
+            "phone": "--layout.footer.phone",
+            "email": "--layout.footer.email"
         },
-        "image_url": "/assets/img/logo_small.svg",
-        "image_alt": "...",
+        "url": "/",
+        "logo_class": "fa-solid fa-apple-whole",
     }
 }

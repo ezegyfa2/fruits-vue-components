@@ -23,7 +23,10 @@
             },
             about_us_text: {
                 type: String,
-            }
+            },
+            products_text: {
+                type: String,
+            },
         }
     }
 </script>
