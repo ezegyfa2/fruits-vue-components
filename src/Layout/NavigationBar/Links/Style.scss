@@ -1,0 +1,21 @@
+@import 'fruits-vue-components/GlobalComponents/globals.scss';
+
+.nav-item {
+    .nav-link {
+        color: $ma-dark;
+        margin: 0px;
+        font: normal normal bold 20px $primary-font-family;
+        letter-spacing: -0.4px;
+        flex: 1;
+    }
+}
+
+@media (max-width: 425px) {
+    .menu-link {
+        color: $ma-dark;
+        margin: 0px;
+        font: normal normal bold 20px $primary-font-family;
+        letter-spacing: -0.4px;
+        flex: 1;
+    }
+}

@@ -1,0 +1,46 @@
+@import 'fruits-vue-components/GlobalComponents/globals.scss';
+
+.btn-language {
+    /* Layout Properties */
+    width: 114px;
+    height: 56px;
+    /* UI Properties */
+    background: $light-color2 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px $box-shadow2;
+    border-radius: 6px;
+    opacity: 1;
+
+    div {
+        width: 104px;
+        height: 46px;
+        margin: 5px;
+        /* UI Properties */
+        background: $ma-bg-01 0% 0% no-repeat padding-box;
+        border-radius: 3px;
+        opacity: 1;
+        display: flex;
+        justify-content: space-between;
+        font: normal normal bold 16px $primary-font-family;
+        letter-spacing: -0.32px;
+
+        .turn-on, .turn-off {
+            width: 46px;
+            height: 46px;
+            padding: 4px;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .turn-on {
+            color: $light-color;
+            background: $secondary-color 0% 0% no-repeat padding-box;
+        }
+
+        .turn-off {
+            color: $primary-color;
+            background-color: $ma-bg-01;
+        }
+    }
+}

@@ -1,0 +1,7 @@
+li.nav-item.btn-language
+    div(v-if='language == "HU"')
+        a.turn-on(:href='current_url') HU
+        a.turn-off(:href='current_url + "/en"') EN
+    div(v-else)
+        a.turn-off(:href='current_url + "/hu"') HU
+        a.turn-on(:href='current_url') EN

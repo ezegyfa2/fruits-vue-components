@@ -65,3 +65,41 @@
     font-size: 1rem;
     font-weight: 700;
 }
+
+@media (max-width: 768px) {
+    .content {
+        font: normal normal bold 18px $primary-font-family;
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 425px) {
+    .line {
+        width: 30px;
+        height: 4px;
+        background-color: $primary-color;
+        border-radius: 10px;
+    }
+
+    .content-box {
+        height: 100%;
+    }
+
+    .img-fluid {
+        height: 30px;
+    }
+
+    .content {
+        text-align: center;
+    }
+}
+
+@media (max-width: 320px) {
+    .title {
+        font: normal normal bold 22px $primary-font-family;
+    }
+    
+    .content {
+        font: normal normal bold 16px $primary-font-family;
+    }
+}
