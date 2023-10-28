@@ -1,34 +1,46 @@
 @import 'fruits-vue-components/GlobalComponents/globals.scss';
 
-.topbar {
-    display: flex;
-    justify-content: center;
-}
-
-.logo {
-    width: 509px;
+.navbar {
+    background-color: $ma-bright !important;
+    min-height: $topbar-base-height;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    .menu-link {
-        color: $ma-dark;
-        margin: 0px;
-        font: normal normal bold 20px $primary-font-family;
-        letter-spacing: -0.4px;
-        flex: 1;
-    }
-
-    .text-end {
-        text-align: end;
-    }
-}
-
-.bg-gradient {
     background-color: $primary-bg-color;
+    font-family: $primary-font-family;
+    padding: 25px 65px 25px 40px;
 }
 
-.sidebar-brand {
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-toggler {
+    i {
+        margin-left: 15px;
+    }
+
+    &:focus {
+        box-shadow: none;
+    }
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 1.5rem;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
     color: $primary-color;
     margin-bottom: 0rem;
     &:hover {
@@ -36,49 +48,26 @@
     }
 }
 
-.btn-language {
-    /* Layout Properties */
-    width: 114px;
-    height: 56px;
-    position: absolute;
-    transform: translate(35vw,0px);
-    /* UI Properties */
-    background: $light-color2 0% 0% no-repeat padding-box;
-    box-shadow: 0px 3px 6px $box-shadow2;
-    border-radius: 6px;
-    opacity: 1;
-
-    div {
-        width: 104px;
-        height: 46px;
-        margin: 5px;
-        /* UI Properties */
-        background: $ma-bg-01 0% 0% no-repeat padding-box;
-        border-radius: 3px;
-        opacity: 1;
+@media only screen and (max-width: 768px) {
+    .navbar-toggler {
         display: flex;
-        justify-content: space-between;
-        font: normal normal bold 16px $primary-font-family;
-        letter-spacing: -0.32px;
+        padding: .25rem 0;
+    }
+}
 
-        .turn-on, .turn-off {
-            width: 46px;
-            height: 46px;
-            padding: 4px;
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+@media only screen and (max-width: 425px) {
+    .navbar {
+        padding: 15px;
+        justify-content: center;
+    }
 
-        .turn-on {
-            color: $light-color;
-            background: $secondary-color 0% 0% no-repeat padding-box;
-        }
+    .navbar-collapse {
+        justify-content: center;
+    }
+}
 
-        .turn-off {
-            color: $primary-color;
-            background-color: $ma-bg-01;
-        }
+@media only screen and (max-width: 320px) {
+    .button-menu {
+        display: none;
     }
 }

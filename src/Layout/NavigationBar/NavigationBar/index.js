@@ -1,6 +1,6 @@
 export default {
     install(Vue) {
-        require('blue-admin-vue-components/NavigationBar/NavigationBar').default.install(Vue)
+        require('helper-vue-components/NavigationBar/CollapsableNavigationBar').default.install(Vue)
 
         registerVueComponent(
             'fruits-navigation-bar',

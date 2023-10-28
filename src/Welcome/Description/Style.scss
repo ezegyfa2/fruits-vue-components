@@ -7,6 +7,8 @@
 
 .img-fluid {
     max-width: 50vw;
+    height: 100%;
+    object-fit: cover;
 }
 
 .light-text {
@@ -36,5 +38,15 @@
 @media (max-width: 992px) {
     .description-text {
         padding: 2rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .text-box {
+        flex-direction: column;
+    }
+
+    .img-fluid {
+        max-width: 100%;
     }
 }

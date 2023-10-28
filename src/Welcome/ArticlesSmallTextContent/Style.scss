@@ -3,7 +3,6 @@
 .title {
     @extend .primary-text;
     font: normal normal bold 50px $primary-font-family;
-    //width: 550px;
     letter-spacing: -1px;
     margin-top: 0;
     margin-bottom: 3rem;
@@ -64,4 +63,25 @@
     font-family: $primary-font-family;
     font-size: 1rem;
     font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    .title {
+        font: normal normal bold 40px $primary-font-family;
+    }
+}
+
+@media (max-width: 425px) {
+    .title {
+        font: normal normal bold 30px $primary-font-family;
+        margin-bottom: 3rem;
+    }
+    
+    .content {
+        font: normal normal normal 22px $primary-font-family;
+    }
+
+    .link {
+        margin-top: 3rem;
+    }
 }
