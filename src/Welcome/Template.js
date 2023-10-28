@@ -7,21 +7,21 @@ export default {
                 "type": "fruits-description-section",
                 "data": {
                     "text_content_section": {
-                        "type": 'fruits-articles-small-text-content',
+                        "type": "fruits-articles-small-text-content",
                         "data": {
                             "title": "--welcome.description1.title",
                             "content": "--welcome.description1.content",
                             "left_orientation": "false",
                             "button_content": "--welcome.description1.button_content",
-                            "url": '/',
+                            "url": "/",
                             "added_classes": {
-                                '.content': ['mb-0'],
-                            },
-                        },
+                                ".content": ["mb-0"]
+                            }
+                        }
                     },
                     "image_url": "/assets/img/fruit_1.jpg",
                     "image_alt": "...",
-                    "left_orientation": false,
+                    "left_orientation": false
                 }
             },
             {
@@ -34,9 +34,9 @@ export default {
                     "bottom_image_url": "/assets/img/dot.svg",
                     "bottom_image_alt": "...",
                     "added_classes": {
-                        '.content': ['mb-0'],
-                    },
-                },
+                        ".content": ["mb-0"]
+                    }
+                }
             },
             {
                 "type": "fruits-articles-small-text-content-with-big-button",
@@ -44,37 +44,37 @@ export default {
                     "title": "--welcome.artical_with_big_button.title",
                     "content": "--welcome.artical_with_big_button.content",
                     "button_content": "--welcome.artical_with_big_button.button_content",
-                    "url": '/',
+                    "url": "/",
                     "left_image_url": "/assets/img/gajjak_1.svg",
                     "left_image_alt": "...",
                     "right_image_url": "/assets/img/gajjak_2.svg",
                     "right_image_alt": "...",
                     "added_classes": {
-                        '.content': ['mb-0'],
-                    },
-                },
+                        ".content": ["mb-0"]
+                    }
+                }
             },
             {
                 "type": "fruits-description-section",
                 "data": {
                     "text_content_section": {
-                        "type": 'fruits-articles-small-text-content',
+                        "type": "fruits-articles-small-text-content",
                         "data": {
                             "title": "--welcome.description2.title",
                             "content": "--welcome.description2.content",
                             "button_content": "--welcome.description2.button_content",
-                            "url": '/',
+                            "url": "/",
                             "added_classes": {
-                                '.content': ['mb-0'],
-                            },
-                        },
+                                ".content": ["mb-0"]
+                            }
+                        }
                     },
                     "image_url": "/assets/img/fruit_2.jpg",
-                    "image_alt": "...",
+                    "image_alt": "..."
                 }
             },
             {
-                "type": 'fruits-articles-small-text-content-with-two-images',
+                "type": "fruits-articles-small-text-content-with-two-images",
                 "data": {
                     "title": "--welcome.article_with_two_images2.title",
                     "content": "--welcome.article_with_two_images2.content",
@@ -83,28 +83,28 @@ export default {
                     "bottom_image_url": "/assets/img/dot.svg",
                     "bottom_image_alt": "...",
                     "added_classes": {
-                        '.content': ['mb-0'],
-                    },
-                },
+                        ".content": ["mb-0"]
+                    }
+                }
             },
             {
                 "type": "fruits-description-section",
                 "data": {
                     "text_content_section": {
-                        "type": 'fruits-articles-small-text-content',
+                        "type": "fruits-articles-small-text-content",
                         "data": {
                             "title": "--welcome.description3.title",
                             "content": "--welcome.description3.content",
                             "button_content": "--welcome.description3.button_content",
-                            "url": '/',
+                            "url": "/",
                             "added_classes": {
-                                '.content': ['mb-0'],
-                            },
-                        },
+                                ".content": ["mb-0"]
+                            }
+                        }
                     },
                     "image_url": "/assets/img/fruit_3.jpg",
                     "image_alt": "...",
-                    "left_orientation": false,
+                    "left_orientation": false
                 }
             },
             {
@@ -117,9 +117,9 @@ export default {
                     "bottom_image_url": "/assets/img/dot.svg",
                     "bottom_image_alt": "...",
                     "added_classes": {
-                        '.content': ['mb-0'],
-                    },
-                },
+                        ".content": ["mb-0"]
+                    }
+                }
             },
             {
                 "type": "fruits-articles-small-text-content-with-big-button",
@@ -127,16 +127,16 @@ export default {
                     "title": "--welcome.artical_with_big_button.title",
                     "content": "--welcome.artical_with_big_button.content",
                     "button_content": "--welcome.artical_with_big_button.button_content",
-                    "url": '/',
+                    "url": "/",
                     "left_image_url": "/assets/img/gajjak_1.svg",
                     "left_image_alt": "...",
                     "right_image_url": "/assets/img/gajjak_2.svg",
                     "right_image_alt": "...",
                     "added_classes": {
-                        '.content': ['mb-0'],
-                    },
-                },
+                        ".content": ["mb-0"]
+                    }
+                }
             }
-        ],
+        ]
     }
 }

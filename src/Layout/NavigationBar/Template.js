@@ -5,7 +5,7 @@ export default {
             "type": "fruits-brand-image",
             "data": {
                 "url": "/",
-                "logo_class": "fa-solid fa-apple-whole",
+                "logo_class": "fa-solid fa-apple-whole"
             }
         },
         "about_us_text": "--layout.navbar.about_us_text",
