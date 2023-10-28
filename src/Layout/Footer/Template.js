@@ -25,7 +25,7 @@ export default {
                             "url": "",
                             "icon_class": "fas fa-envelope"
                         }
-                    },
+                    }
                 ]
             }
         },
@@ -35,6 +35,6 @@ export default {
             "email": "--layout.footer.email"
         },
         "url": "/",
-        "logo_class": "fa-solid fa-apple-whole",
+        "logo_class": "fa-solid fa-apple-whole"
     }
 }
