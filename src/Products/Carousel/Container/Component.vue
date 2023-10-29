@@ -5,12 +5,8 @@
 <script>
     export default {
         props: {
-            current_language: {
-                type: String,
-                default: 'HU'
-            },
-            languages: {
-                type: Array
+            content_section: {
+                type: Object
             }
         }
     }

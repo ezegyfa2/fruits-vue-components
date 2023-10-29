@@ -1,0 +1,84 @@
+@import "fruits-vue-components/GlobalComponents/globals";
+
+.text-content {
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    text-shadow: #4e5055 1px 0 20px;
+    animation-fill-mode: both;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1200px;
+    text-align: center !important;
+    animation-name: fadeInUpSm;
+    animation-timing-function: ease-out;
+    position: relative;
+    animation-duration: .75s;
+    animation-delay: 0s;
+    white-space: pre-wrap;
+}
+
+@-webkit-keyframes fadeInUpSm {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 50%, 0);
+        transform: translate3d(0, 50%, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes fadeInUpSm {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 50%, 0);
+        transform: translate3d(0, 50%, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@media (min-width: 769px) {
+    .title {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .content {
+        font-size: 58px;
+        line-height: 64px;
+        margin-top: 15px;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .content {
+        font-size: 36px;
+        line-height: 44px;
+        margin-top: 15px;
+        max-width: 70vw;
+    }
+}
+
+@media (max-width: 425px) {
+    .title {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .content {
+        font-size: 18px;
+        line-height: 28px;
+        margin-top: 5px;
+        max-width: 70vw;
+        margin-bottom: 1.5rem;
+    }
+}

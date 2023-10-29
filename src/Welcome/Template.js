@@ -13,7 +13,7 @@ export default {
                             "content": "--welcome.description1.content",
                             "left_orientation": "false",
                             "button_content": "--welcome.description1.button_content",
-                            "url": "/",
+                            "url": "/products",
                             "added_classes": {
                                 ".content": ["mb-0"]
                             }
@@ -44,7 +44,7 @@ export default {
                     "title": "--welcome.artical_with_big_button.title",
                     "content": "--welcome.artical_with_big_button.content",
                     "button_content": "--welcome.artical_with_big_button.button_content",
-                    "url": "/",
+                    "url": "/products",
                     "left_image_url": "/assets/img/gajjak_1.svg",
                     "left_image_alt": "...",
                     "right_image_url": "/assets/img/gajjak_2.svg",
@@ -63,7 +63,7 @@ export default {
                             "title": "--welcome.description2.title",
                             "content": "--welcome.description2.content",
                             "button_content": "--welcome.description2.button_content",
-                            "url": "/",
+                            "url": "/products",
                             "added_classes": {
                                 ".content": ["mb-0"]
                             }
@@ -96,7 +96,7 @@ export default {
                             "title": "--welcome.description3.title",
                             "content": "--welcome.description3.content",
                             "button_content": "--welcome.description3.button_content",
-                            "url": "/",
+                            "url": "/products",
                             "added_classes": {
                                 ".content": ["mb-0"]
                             }
@@ -127,7 +127,7 @@ export default {
                     "title": "--welcome.artical_with_big_button.title",
                     "content": "--welcome.artical_with_big_button.content",
                     "button_content": "--welcome.artical_with_big_button.button_content",
-                    "url": "/",
+                    "url": "/products",
                     "left_image_url": "/assets/img/gajjak_1.svg",
                     "left_image_alt": "...",
                     "right_image_url": "/assets/img/gajjak_2.svg",

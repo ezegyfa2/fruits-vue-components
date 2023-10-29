@@ -3,7 +3,12 @@
 </template>
 
 <script>
+    import Page from 'helper-vue-components/Pages/Page/Component.vue'
+
     export default {
+        mixins: [
+            Page
+        ]
     }
 </script>
 

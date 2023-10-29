@@ -1,5 +1,5 @@
 export default {
-    "type": "page",
+    "type": "fruits-page",
     "data": {
         "navigation_bar_section": {
             "template_type_name": "fruits_navigation_bar",

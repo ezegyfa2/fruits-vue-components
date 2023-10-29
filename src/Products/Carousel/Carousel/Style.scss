@@ -1,0 +1,26 @@
+@import "fruits-vue-components/GlobalComponents/globals";
+
+.root {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: $ma-light;
+}
+
+.carousel {
+    margin-top: 10rem;
+    margin-bottom: 6rem;
+    width: 936px;
+    height: 538px;
+}
+
+.carousel-inner {
+    border-radius: 12px;
+    height: 100%;
+}
+
+@media (max-width: 425px) {
+    .carousel {
+        margin-top: 5.5rem;
+        margin-bottom: 3rem;
+    }
+}
